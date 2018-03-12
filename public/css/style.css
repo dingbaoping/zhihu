@@ -1,0 +1,50 @@
+/*导航条修改*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #31b2eb;
+    background-color: inherit;
+}
+/*question*/
+a.topic{
+	background: #eee;
+	padding: 5px 10px;
+	border-radius: 15px;
+	font-size: 12px;
+	margin-left: 5px;
+	
+}
+
+a.topic:hover{
+	background: #006cff;
+	color: #fff;
+}
+
+.actions{
+	padding: 5px 15px;
+}
+.delete form{
+	color: #f00;
+	display: inline;
+}
+.delete form .botton{
+	background: transparent;
+	outline: 0;
+	border:0;
+}
+.delete form .botton:hover{
+	text-decoration: underline;
+}
+
+.question-follow{
+	text-align: center;
+}
+
+
+.user-statics,.user-actions{
+	margin-top:20px;
+}
+.user-statics{
+	display: flex;
+}
+.statics-item{
+	padding: 2px 20px;
+}
